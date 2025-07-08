@@ -1,0 +1,186 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* google-font */
+
+.open-sans {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+/* sharing-css */
+.btn{
+    background-color: #FD6E0A;
+    padding: 18px 35px;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 5px;
+    border: none;
+}
+
+.btn a{
+    color: white;
+    text-decoration: none;
+}
+
+.second-bgc{
+    background-color: #FFF8F3;
+}
+
+.pri-t{
+    font-weight: 700px;
+    font-size: 35px;
+}
+
+.second-t{
+    font-weight: 700px;
+    font-size: 20px;
+}
+
+.pri-p{
+    font-size: 18px;
+}
+
+/* header-menu */
+
+.nev{
+    
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 200px;
+}
+
+
+
+.nev-title{
+    font-weight: 800px;
+}
+
+header span{
+    color: #FD6E0A;
+}
+
+.menu ul{
+    display: flex;
+    align-items: center;
+}
+.menu ul li{
+    list-style: none;
+    margin-left: 51px;
+    align-items: center;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    font-size: 20px;
+}
+
+
+
+/* baner-st */
+
+.baner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 50px 0px 200px;
+
+}
+
+.baner-left{
+max-width: 584px;
+}
+
+.baner-right{
+    width: 584px;
+
+}
+
+.contact-css {
+    background-color: #FFF8F3;
+    border: 1px solid #FD6E0A;
+    border-radius: 5px;
+}
+
+.contact-css a{
+    color: #FD6E0A;
+}
+
+
+.baner-left h4{
+    font-weight: 600px;
+    font-size: 45px;
+    margin-bottom: 30px;
+}
+
+.baner-left h1{
+    font-weight: 700px;
+    font-size: 85px;
+    margin-bottom: 30px;
+}
+
+.baner-left p{
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+header{
+    background-image: url(./images/developer.png), url(./images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: center left, bottom right;
+    background-color: #FFF8F3;
+    padding-top: 50px;
+    }
+
+/* main-width */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+
+/* about-section-st */
+
+
+
+.about-section{
+    padding: 131px 157px;
+    margin-top: 130px;
+}
+.about-section h1{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.about-section p{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.about{
+    background-color: white;
+    border: 1px solid black;
+}
+
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-item{}
+
+.item-title{}
+
+.item-description{
+    font-weight: 600;
+}
