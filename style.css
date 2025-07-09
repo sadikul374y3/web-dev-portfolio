@@ -184,3 +184,109 @@ main{
 .item-description{
     font-weight: 600;
 }
+
+
+/* What-I-do */
+
+.What-I-do{}
+
+.What-I-do h1{
+    text-align: center;
+    margin: 130px 0px 30px 0px;
+    font-weight: 700;
+    font-size: 35px;
+    
+}
+
+.what-p{
+    margin-bottom: 50px;
+    text-align: center;
+    padding: 0px 115px;
+}
+
+.skils-container{
+    display: flex;
+    gap: 24px;
+}
+
+.what-section{
+    padding: 33px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+.second-t{
+    margin: 30px 0px 20px 0px;
+}
+
+.resume-title h2{
+text-align: center;
+padding: 130px 0px 113px 0px;
+font-weight: bold;
+font-size: 35px;
+}
+
+.resume-container{
+    display: flex;
+    gap: 24px;
+}
+
+.resume-colum-title{
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: #474747;
+}
+
+.experience-title{
+    font-weight: bold;
+    font-size: 25px;
+    margin: 10px 0px 20px 0px;
+    color: #474747;
+}
+
+.experience-sub-title{
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #757575;
+}
+
+.experience-discription{
+    font-size: 16px;
+    color: #757575;
+}
+
+
+.download-cv{
+    text-align: center;
+    margin: 50px 0px 113px 0px;
+}
+
+
+/* footer-st */
+
+footer{
+    display: flex;
+    padding: 130px 230px;
+    gap: 117px;
+}
+
+.footer-colum p{
+    margin: 20px 0px 30px 0px ;
+}
+
+.footer-colum-title{
+    margin-bottom: 28px;
+}
+
+.footer-colum input[type="text"], .footer-colum input[type="email"], .footer-colum textarea {
+    height: 64px;
+    display: block;
+    width: 100%;
+    margin-bottom: 24px;
+    color: #757575;
+    padding-left: 30px;
+    border: none;
+    background-color: white;
+
+}
+
